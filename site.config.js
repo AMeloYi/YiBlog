@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `YiBlog`,
-      href: "https://github.com/ameloyi",
+      name: `Wish Simulators`,
+      href: "/wishsimulators",
     },
   ],
   // blog setting (required)

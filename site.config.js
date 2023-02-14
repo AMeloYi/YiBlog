@@ -8,7 +8,7 @@ const CONFIG = {
     email: "ameloyi@metaorder.ltd",
     linkedin: "",
     github: "AmeloYi",
-    instagram: "https://www.instagram.com/amelo_yi/",
+    instagram: "amelo_yi",
   },
   projects: [
     {
@@ -22,7 +22,7 @@ const CONFIG = {
     {
       name: `空气铃铛`,
       href: "/airbell",
-    },
+    }
   ],
   // blog setting (required)
   blog: {

@@ -3,24 +3,32 @@ const CONFIG = {
   profile: {
     name: "AmeloYi",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Indie Developer",
+    role: "Indie Developer @MetaOrder",
     bio: "Harmony in diversity",
     email: "ameloyi@metaorder.ltd",
     linkedin: "",
     github: "AmeloYi",
-    instagram: "",
+    instagram: "https://www.instagram.com/amelo_yi/",
   },
   projects: [
     {
-      name: `Wish Simulators`,
-      href: "/wishsimulators",
+      name: `抽卡模拟器集合(IOS)`,
+      href: "/wishsimulatorsIOS",
+    },
+    {
+      name: `抽卡模拟器集合(小程序)`,
+      href: "/wishsimulatorsWXMini",
+    },
+    {
+      name: `空气铃铛`,
+      href: "/airbell",
     },
   ],
   // blog setting (required)
   blog: {
     title: "YiBlog",
     description: "welcome to YiBlog!",
-    theme: "light", // ['light', 'dark', 'auto']
+    theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
@@ -29,7 +37,7 @@ const CONFIG = {
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Swift", "Blog", "Website"],
+    keywords: ["抽卡模拟器", "原神", "Swift", "Blog", "Website"],
   },
 
   // notion configuration (required)

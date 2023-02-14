@@ -7,9 +7,10 @@ const ServiceCard: React.FC = () => {
   return (
     <>
       <div className="p-1 mb-3 dark:text-white">🌟 Service</div>
-      {
+      
           <ul className="rounded-2xl mb-9 bg-white dark:bg-zinc-700 p-1 flex flex-col">
-                  CONFIG.projects.map((item, idx) => (
+          {
+        CONFIG.projects.map((item, idx) => (
         <a
           href={`${item.href}`}
           rel="noreferrer"
@@ -19,9 +20,10 @@ const ServiceCard: React.FC = () => {
           <AiFillCodeSandboxCircle className="text-2xl" />
           <div className="text-sm">{item.name}</div>
         </a>
-                  ))
-      </ul>
+           ))
       }
+      </ul>
+       
       <ul className="rounded-2xl mb-9 bg-white dark:bg-zinc-700 p-1 flex flex-col">
         <a
           href={`${CONFIG.projects[0].href}`}
